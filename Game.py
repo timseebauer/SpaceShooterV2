@@ -1,8 +1,8 @@
 class Game:
-    def __init__(self, asteroid, player, bullet):
-        self.asteroid = asteroid
-        self.player = player
-        self.bullet = bullet
+    def __init__(self):
+        self.asteroids = None 
+        self.player = None
+        self.bullets = None
 
     def game_over():
         pass

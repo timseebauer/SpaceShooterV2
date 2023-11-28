@@ -1,5 +1,5 @@
 class Bullet:
-    def __int__(self, hitBoxRadius, dmg, sprite):
+    def __init__(self, hitBoxRadius, dmg, sprite):
         self.hitBoxRadius = hitBoxRadius
         self.dmg = dmg
         self.sprite = sprite
