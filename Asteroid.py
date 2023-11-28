@@ -13,4 +13,3 @@ class Asteroid:
 
     def split(self):
         pass
-#test
