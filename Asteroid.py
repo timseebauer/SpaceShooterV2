@@ -1,7 +1,6 @@
 class Asteroid:
-    def __init__(self, x, y):
-        self.x = Vec2.x
-        self.y = Vec2.y
+    def __init__(self, pos: Vec2, speed, hitbox_radius, hp, damage, sprite):
+        self.pos = Vec2
         self.speed = 0
         self.hitbox_radius = 3
         self.hp = 3

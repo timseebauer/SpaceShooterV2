@@ -1,7 +1,6 @@
 class Spaceship:
-    def __init__(self, x, y):
-        self.x = Vec2.x
-        self.y = Vec2.y
+    def __init__(self, pos: Vec2):
+        self.pos = Vec2
         self.speed = 5
         self.hp = 5
         self.hitbox_radius = 3
