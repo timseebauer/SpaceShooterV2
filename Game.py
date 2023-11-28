@@ -4,13 +4,13 @@ class Game:
         self.player = player
         self.bullet = bullet
 
-    def gameOver():
+    def game_over():
         pass
 
-    def processInput():
+    def process_input():
         pass
 
-    def handleCollision():
+    def handle_collision():
         pass
 
     def render():
