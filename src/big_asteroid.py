@@ -1,15 +1,10 @@
-class BigAsteroid:
-    def __init__(self, x, y, move_speed, dmg, hp, sprite):
-        self.x = x
-        self.y = y
-        self.moveSpeed = move_speed
-        self.dmg = dmg
-        self.hp = hp
-        self.split_probability = 0.7
-        self.sprite = sprite
+from src.asteroid import Asteroid
 
-    def move(self, x, y):
-        pass
+
+class BigAsteroid(Asteroid):
+    def __init__(self, x, y, move_speed, dmg, hp, sprite):
+        super().__init__(x, y, move_speed, dmg, hp, sprite)
+        self.split_probability = 0.7
 
     def split(self):
         pass

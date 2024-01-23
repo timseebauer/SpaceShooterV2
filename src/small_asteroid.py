@@ -1,11 +1,6 @@
-class SmallAsteroid:
-    def __init__(self, x, y, move_speed, dmg, hp, sprite):
-        self.x = x
-        self.y = y
-        self.move_speed = move_speed
-        self.dmg = dmg
-        self.hp = hp
-        self.sprite = sprite
+from src.asteroid import Asteroid
 
-    def move(self, x, y):
-        pass
+
+class SmallAsteroid(Asteroid):
+    def __init__(self, x, y, move_speed, dmg, hp, sprite):
+        super().__init__(x, y, move_speed, sprite, dmg, hp)
