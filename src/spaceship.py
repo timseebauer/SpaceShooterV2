@@ -1,10 +1,10 @@
 from src.bullet import Bullet
-from src.player_pos import PlayerPos
 
 
-class Spaceship(PlayerPos):
+class Spaceship:
     def __init__(self, x, y, move_speed, hp, sprite):
-        super().__init__(x, y)
+        self.x = x
+        self.y = y
         self.move_speed = move_speed
         self.hp = hp
         self.sprite = sprite

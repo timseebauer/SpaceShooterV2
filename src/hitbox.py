@@ -1,9 +1,7 @@
-from src.player_pos import PlayerPos
-
-
-class Hitbox(PlayerPos):
+class Hitbox:
     def __init__(self, x, y, radius):
-        super().__init__(x, y)
+        self.x = x
+        self.y = y
         self.radius = radius
 
     def collide_with(self, other_hitbox) -> bool:
