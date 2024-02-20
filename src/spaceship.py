@@ -8,6 +8,8 @@ class Spaceship:
         self.move_speed = move_speed
         self.hp = hp
         self.sprite = sprite
+        self.hitbox = None
+        self.weapon = None
 
     def move(self, x, y):
         pass

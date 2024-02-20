@@ -6,6 +6,7 @@ class Asteroid:
         self.sprite = sprite
         self.dmg = dmg
         self.hp = hp
+        self.hitbox = None
 
     def move(self, x, y):
         pass

@@ -1,5 +1,8 @@
 class Game:
     def __init__(self):
+        self.spaceship = None
+        self.asteroids = []
+        self.bullets = []
         pass
 
     def spawn_asteroid(self):
