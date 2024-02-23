@@ -4,7 +4,7 @@ class Hitbox:
         self.y = y
         self.radius = radius
 
-    def collide_with(self, other_hitbox) -> bool:
+    def collides_with(self, other_hitbox) -> bool:
         pass
 
     def update_position(self, x, y):
