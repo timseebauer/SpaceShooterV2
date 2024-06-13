@@ -42,7 +42,7 @@ class RocketWeapon(Weapon):
 
     # Method for shooting this specific weapon
     def shoot(self, x, y):
-        bullet = Bullet("spr_bullet_missile.png", 1.5, 300, 160) # Change Image later
+        bullet = Bullet("spr_bullet_missile.png", 1.5, 300, 160)
         bullet.center_x = x
         bullet.center_y = y + 10
         bullet.hitbox = Hitbox(bullet.center_x, bullet.center_y, 3.5 * bullet.width / 2)
@@ -59,7 +59,7 @@ class TripleWeapon(Weapon):
 
     # Method for shooting this specific weapon
     def shoot(self, x, y):
-        bullet = Bullet("spr_bullet_big.png", 1, 400, 35) # Change Image later
+        bullet = Bullet("spr_bullet_big.png", 1, 400, 35)
         bullet.center_x = x
         bullet.center_y = y + 10
         bullet.hitbox = Hitbox(bullet.center_x, bullet.center_y, 1 * bullet.width / 2)

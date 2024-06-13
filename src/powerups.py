@@ -29,6 +29,7 @@ class PowerUp(arcade.Sprite):
         # Update position of hitbox
         self.hitbox.set_position(self.center_x, self.center_y)
 
+
 """
 Subclasses for the different power-ups
 """

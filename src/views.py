@@ -411,7 +411,6 @@ class GameView(arcade.View):
         asteroid.set_position(x, y)
         self.split_asteroids.append(asteroid)
 
-
     def spawn_powerup(self):
         # Set random position and choose the powerup
         x = random.randint(10, WIDTH - 10)
